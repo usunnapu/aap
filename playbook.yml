@@ -1,5 +1,7 @@
 - name: my playbook
   hosts: localhost
+  become: yes
+  become_method: su
   tasks:
     - debug:
         msg: 'Running on all dbservers and webserver'
