@@ -2,7 +2,5 @@
   hosts: localhost
   become: yes
   tasks:
-    - name: ensure apache is at the latest version
-      yum:
-        name: httpd
-        state: latest
+    - debug:
+        msg: 'Running on all dbservers and webserver'
