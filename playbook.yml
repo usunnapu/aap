@@ -1,6 +1,5 @@
 - name: my playbook
   hosts: localhost
-  become: yes
   tasks:
     - debug:
         msg: 'Running on all dbservers and webserver'
