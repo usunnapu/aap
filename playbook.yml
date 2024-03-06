@@ -1,5 +1,5 @@
 - name: my playbook
-  hosts: 10.239.0.170
+  hosts: node-prov.ndcmgmt.d51.dsp.lab
   tasks:
     - debug:
         msg: 'Running on all dbservers and webserver'
