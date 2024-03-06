@@ -1,5 +1,5 @@
 - name: my playbook
-  hosts: localhost
+  hosts: 10.239.0.170
   tasks:
     - debug:
         msg: 'Running on all dbservers and webserver'
