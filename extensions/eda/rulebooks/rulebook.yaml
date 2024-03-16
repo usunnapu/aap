@@ -9,5 +9,6 @@
     - name: Notify
       condition: event.type == "ADDED"
       action:
-        run_playbook:
-          name: sriov.yml
+        run_job_template:
+          name: ndcmgmt-cluster
+          organization: Default
