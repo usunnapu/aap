@@ -3,8 +3,8 @@
   sources:
     - sabre1041.eda.k8s:
         api_version: v1
-        kind: ConfigMap
-        namespace: dev-game-app
+        kind: secret
+        namespace: ansible-automation-platform
   rules:
     - name: Notify
       condition: event.type == "ADDED"
